@@ -11,4 +11,4 @@ spec:
         image: python:3.9-slim
         env:
         - name: MODEL_VERSION
-          value: "v1" # <--- We will automate changing this!
+          value: "v2" # <--- We will automate changing this!
