@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: model-server
+  name: model-server444444
 spec:
   replicas: 1
   template:
