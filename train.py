@@ -1,6 +1,7 @@
 import mlflow
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestRegressor
+import requests
 
 # Tell Python where the 'Logbook' (MLflow) is
 mlflow.set_tracking_uri("http://localhost:5000")
